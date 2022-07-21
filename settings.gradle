@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Swosti_WebView_Application"

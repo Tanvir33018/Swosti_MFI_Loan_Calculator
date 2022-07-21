@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/webviewFragment">
+
+    <fragment
+        android:id="@+id/webviewFragment"
+        android:name="com.example.swosti_webview_application.ui.WebviewFragment"
+        android:label="webview_fragment"
+        tools:layout="@layout/webview_fragment" />
+</navigation>
